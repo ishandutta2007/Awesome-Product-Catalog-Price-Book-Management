@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="340" style="background: linear-gradient(135deg, #090d16 0%, #0d1527 50%, #111e38 100%); border-radius: 14px; overflow: hidden; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1"/>
+    </pattern>
+
+    <!-- Linear Gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="badgeGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <linearGradient id="flowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#4ade80"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    /* Background animated elements */
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+      50% { transform: scale(1.15) translate(20px, -15px); opacity: 0.65; }
+    }
+    @keyframes floatCard1 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes floatCard2 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(7px); }
+    }
+    @keyframes dashMove {
+      0% { stroke-dashoffset: 200; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes pingDot {
+      0% { r: 3px; opacity: 1; }
+      50% { r: 6px; opacity: 0.4; }
+      100% { r: 3px; opacity: 1; }
+    }
+
+    .bg-orb-1 { animation: pulseOrb 8s ease-in-out infinite; transform-origin: center; }
+    .bg-orb-2 { animation: pulseOrb 10s ease-in-out infinite reverse; transform-origin: center; }
+    .floating-group-1 { animation: floatCard1 5s ease-in-out infinite; }
+    .floating-group-2 { animation: floatCard2 6s ease-in-out infinite; }
+    .stream-line { stroke-dasharray: 8 6; animation: dashMove 20s linear infinite; }
+    .live-dot { animation: pingDot 2.5s ease-in-out infinite; }
+  </style>
+
+  <!-- Background Grid -->
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- Animated Glowing Orbs (Deep Background) -->
+  <circle class="bg-orb-1" cx="1020" cy="90" r="140" fill="#38bdf8" filter="url(#glow)" opacity="0.18"/>
+  <circle class="bg-orb-2" cx="880" cy="240" r="120" fill="#a855f7" filter="url(#glow)" opacity="0.15"/>
+  <circle cx="150" cy="180" r="130" fill="#3b82f6" filter="url(#glow)" opacity="0.12"/>
+
+  <!-- Background Connecting Flow Line -->
+  <path class="stream-line" d="M 680 70 C 800 70, 820 160, 940 160 S 1060 250, 1150 250" fill="none" stroke="url(#flowGrad)" stroke-width="2" opacity="0.4"/>
+
+  <!-- ================= RIGHT SIDE DYNAMIC / DATA VISUAL ELEMENTS ================= -->
+
+  <!-- Dynamic Card 1: PIM Multi-Channel Hub -->
+  <g class="floating-group-1" transform="translate(730, 45)">
+    <rect width="190" height="95" rx="10" fill="#15213b" stroke="#2a3f6b" stroke-width="1.5" opacity="0.9"/>
+    <rect x="14" y="16" width="30" height="30" rx="6" fill="#38bdf8" fill-opacity="0.2"/>
+    <text x="29" y="36" fill="#38bdf8" font-size="16" font-weight="bold" text-anchor="middle">📦</text>
+    <text x="52" y="28" fill="#f1f5f9" font-size="12" font-weight="700">PIM Catalog Hub</text>
+    <text x="52" y="44" fill="#94a3b8" font-size="10">10M+ SKUs &amp; Attributes</text>
+    <rect x="14" y="60" width="162" height="6" rx="3" fill="#202f50"/>
+    <rect x="14" y="60" width="125" height="6" rx="3" fill="url(#primaryGrad)"/>
+    <text x="14" y="82" fill="#38bdf8" font-size="10" font-weight="600">✓ Syndication Active</text>
+    <circle class="live-dot" cx="166" cy="80" r="4" fill="#4ade80"/>
+  </g>
+
+  <!-- Dynamic Card 2: Price Book & Tier Engine -->
+  <g class="floating-group-2" transform="translate(945, 120)">
+    <rect width="215" height="120" rx="10" fill="#15213b" stroke="#3b4d75" stroke-width="1.5" opacity="0.92"/>
+    <rect x="14" y="16" width="30" height="30" rx="6" fill="#a855f7" fill-opacity="0.2"/>
+    <text x="29" y="36" fill="#c084fc" font-size="16" font-weight="bold" text-anchor="middle">🏷️</text>
+    <text x="52" y="28" fill="#f1f5f9" font-size="12" font-weight="700">Dynamic Price Books</text>
+    <text x="52" y="44" fill="#94a3b8" font-size="10">Multi-Currency &amp; Tiers</text>
+    
+    <g transform="translate(14, 58)">
+      <rect width="187" height="22" rx="4" fill="#1b2a4a"/>
+      <text x="8" y="15" fill="#e2e8f0" font-size="9.5" font-family="monospace">B2B Tier A: 20% Vol. Disc.</text>
+    </g>
+    <g transform="translate(14, 85)">
+      <rect width="187" height="22" rx="4" fill="#1b2a4a"/>
+      <text x="8" y="15" fill="#e2e8f0" font-size="9.5" font-family="monospace">Global SaaS: $0 Free Tier</text>
+    </g>
+  </g>
+
+  <!-- Mini Dynamic Badge 3: CPQ & Sync Indicator -->
+  <g class="floating-group-1" transform="translate(770, 235)">
+    <rect width="150" height="42" rx="8" fill="#101c33" stroke="#2563eb" stroke-width="1.2" opacity="0.88"/>
+    <text x="16" y="26" fill="#60a5fa" font-size="11" font-weight="600">⚡ CPQ / ERP Real-Time</text>
+  </g>
+
+  <!-- ================= FOREGROUND HERO CONTENT (GUARANTEED VISIBILITY) ================= -->
+
+  <!-- Top Pill / Status Tag -->
+  <g transform="translate(70, 48)">
+    <rect width="320" height="30" rx="15" fill="url(#badgeGrad1)" stroke="#6366f1" stroke-width="1"/>
+    <circle cx="16" cy="15" r="4" fill="#38bdf8"/>
+    <text x="28" y="19.5" fill="#e0e7ff" font-size="11" font-weight="700" letter-spacing="1">CURATED ECOSYSTEM DIRECTORY</text>
+  </g>
+
+  <!-- Main Title -->
+  <g transform="translate(70, 126)">
+    <text fill="#ffffff" font-size="34" font-weight="800" letter-spacing="-0.8">Awesome Product Catalog</text>
+    <text y="42" fill="url(#primaryGrad)" font-size="34" font-weight="800" letter-spacing="-0.8">&amp; Price Book Management</text>
+  </g>
+
+  <!-- Subtitle -->
+  <g transform="translate(70, 212)">
+    <text fill="#94a3b8" font-size="14.5" font-weight="400">
+      Enterprise SaaS &amp; Open-Source PIM, DAM, Multi-Currency Price Books,
+    </text>
+    <text y="24" fill="#94a3b8" font-size="14.5" font-weight="400">
+      Tiered Pricing Engines &amp; Headless Commerce Catalog Architectures.
+    </text>
+  </g>
+
+  <!-- Key Capability Tags -->
+  <g transform="translate(70, 282)">
+    <!-- Tag 1 -->
+    <rect width="98" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="49" y="17" fill="#cbd5e1" font-size="11" font-weight="600" text-anchor="middle">PIM &amp; PXM</text>
+
+    <!-- Tag 2 -->
+    <g transform="translate(108, 0)">
+      <rect width="112" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="56" y="17" fill="#cbd5e1" font-size="11" font-weight="600" text-anchor="middle">Price Books</text>
+    </g>
+
+    <!-- Tag 3 -->
+    <g transform="translate(230, 0)">
+      <rect width="138" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="69" y="17" fill="#cbd5e1" font-size="11" font-weight="600" text-anchor="middle">Open-Source PIM</text>
+    </g>
+
+    <!-- Tag 4 -->
+    <g transform="translate(378, 0)">
+      <rect width="135" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="67.5" y="17" fill="#cbd5e1" font-size="11" font-weight="600" text-anchor="middle">CPQ &amp; Syndication</text>
+    </g>
+  </g>
+</svg>
