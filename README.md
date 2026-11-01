@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Product-Catalog-Price-Book-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Product-Catalog-Price-Book-Management?style=social&color=white" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Catalog-Price-Book-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Product-Catalog-Price-Book-Management?style=social&color=white" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Product-Catalog-Price-Book-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Product-Catalog-Price-Book-Management?style=social&color=white" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome List" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Product-Catalog-Price-Book-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Product-Catalog-Price-Book-Management?color=blue" alt="License" /></a>
@@ -78,27 +78,27 @@ Below is a detailed breakdown of leading SaaS platforms offering dedicated produ
 
 Open-source product catalog and price book software empowers teams to avoid vendor lock-in, customize complex relational schemas, and deploy on-premise or within self-hosted clouds (AWS, GCP, Azure, Bare-Metal Kubernetes).
 
-The projects below are organized and sorted in descending order by **GitHub Star Count**.
+The projects below are organized and sorted in descending order by **GitHub Stars_Count**.
 
 ### 📦 Full-Scale PIM Platforms
 
-* **[Odoo](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+* **[Odoo](https://github.com/odoo/odoo)** [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
   *Python / JavaScript • LGPLv3*  
   Comprehensive open-source business suite featuring a robust **Product Catalog & Pricelist Engine**. Supports rule-based dynamic pricing (seasonal discounts, margin-based markups, customer-specific price books), multi-currency conversions, SKU variants, and barcode management seamlessly connected to inventory, POS, and eCommerce modules.
 
-* **[UnoPim](https://github.com/unopim/unopim)** [![GitHub stars](https://img.shields.io/github/stars/unopim/unopim?style=social&color=white)](https://github.com/unopim/unopim/stargazers)  
+* **[UnoPim](https://github.com/unopim/unopim)** [![GitHub_Stars](https://img.shields.io/github/stars/unopim/unopim?style=social&color=white)](https://github.com/unopim/unopim/stargazers)  
   *PHP (Laravel) / Vue.js • Open-Source*  
   Modern, fast, and actively maintained open-source PIM engineered to handle **10 million+ product records**. Features include flexible attribute families, multi-channel syndication (Shopify, Bagisto, Amazon), multi-currency pricing, Magic AI content generation, DAM file attachments, localized translations in 33+ languages, and complete REST API coverage.
 
-* **[Pimcore](https://github.com/pimcore/pimcore)** [![GitHub stars](https://img.shields.io/github/stars/pimcore/pimcore?style=social&color=white)](https://github.com/pimcore/pimcore/stargazers)  
+* **[Pimcore](https://github.com/pimcore/pimcore)** [![GitHub_Stars](https://img.shields.io/github/stars/pimcore/pimcore?style=social&color=white)](https://github.com/pimcore/pimcore/stargazers)  
   *PHP (Symfony) / ExtJS • Pimcore Open Core License*  
   Enterprise-grade open-core platform delivering an integrated suite for PIM, Master Data Management (MDM), Digital Asset Management (DAM), and Customer Data Platforms (CDP). Offers granular class modeling, complex product relationships, 200+ media format previews, and GraphQL/REST Data Hub connectors. *(Note: Free community licensing is restricted to non-production, non-profit, or businesses under $5M/year revenue).*
 
-* **[Akeneo PIM (Community Edition)](https://github.com/akeneo/pim-community-dev)** [![GitHub stars](https://img.shields.io/github/stars/akeneo/pim-community-dev?style=social&color=white)](https://github.com/akeneo/pim-community-dev/stargazers)  
+* **[Akeneo PIM (Community Edition)](https://github.com/akeneo/pim-community-dev)** [![GitHub_Stars](https://img.shields.io/github/stars/akeneo/pim-community-dev?style=social&color=white)](https://github.com/akeneo/pim-community-dev/stargazers)  
   *PHP (Symfony) • OSLv3*  
   The historic open-source benchmark for Product Information Management. Provides standardized product family modeling, attribute definitions, mass edits, and localization workflows. *(Note: Official upstream CE development was paused by Akeneo in 2023 with security support sunsetting September 2026).*
 
-* **[AtroPIM](https://github.com/atrocore/atropim)** [![GitHub stars](https://img.shields.io/github/stars/atrocore/atropim?style=social&color=white)](https://github.com/atrocore/atropim/stargazers)  
+* **[AtroPIM](https://github.com/atrocore/atropim)** [![GitHub_Stars](https://img.shields.io/github/stars/atrocore/atropim?style=social&color=white)](https://github.com/atrocore/atropim/stargazers)  
   *PHP / Backbone.js • GPLv3*  
   Flexible open-source PIM software built on the AtroCore framework. Empowers non-technical administrators to configure customized data models, entity relationships, classifications, and associations directly from the UI without backend code deployment.
 
@@ -106,33 +106,33 @@ The projects below are organized and sorted in descending order by **GitHub Star
 
 Many engineering teams leverage modern headless commerce backbones as their primary catalog and multi-currency price book service:
 
-* **[Medusa](https://github.com/medusajs/medusa)** [![GitHub stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
+* **[Medusa](https://github.com/medusajs/medusa)** [![GitHub_Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
   *Node.js / TypeScript • MIT License*  
   Composable, headless commerce platform with dedicated modules for **Product Catalog** and **Pricing Engine**. Provides first-class support for multi-currency price lists, conditional customer group overrides, tiered bulk pricing, custom product attributes, and extensible workflows.
 
-* **[Bagisto](https://github.com/bagisto/bagisto)** [![GitHub stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers)  
+* **[Bagisto](https://github.com/bagisto/bagisto)** [![GitHub_Stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers)  
   *PHP (Laravel) / Vue.js • MIT License*  
   Complete open-source eCommerce ecosystem with robust product catalog management, configurable attributes, customer group pricing, localized channels, and native UnoPim connectivity.
 
-* **[Saleor](https://github.com/saleor/saleor)** [![GitHub stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers)  
+* **[Saleor](https://github.com/saleor/saleor)** [![GitHub_Stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers)  
   *Python (Django) / GraphQL • BSD-3-Clause*  
   High-performance headless GraphQL commerce platform. Offers multichannel price books, complex product attribute configurations, tax rule mapping, and multi-warehouse catalog availability tracking.
 
-* **[Spree Commerce](https://github.com/spree/spree)** [![GitHub stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers)  
+* **[Spree Commerce](https://github.com/spree/spree)** [![GitHub_Stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers)  
   *Ruby on Rails • BSD-3-Clause*  
   Battle-tested headless commerce platform providing advanced multi-store catalog routing, localized currency price lists, variant taxonomy trees, and REST/GraphQL endpoints.
 
-* **[Vendure](https://github.com/vendurehq/vendure)** [![GitHub stars](https://img.shields.io/github/stars/vendurehq/vendure?style=social&color=white)](https://github.com/vendurehq/vendure/stargazers)  
+* **[Vendure](https://github.com/vendurehq/vendure)** [![GitHub_Stars](https://img.shields.io/github/stars/vendurehq/vendure?style=social&color=white)](https://github.com/vendurehq/vendure/stargazers)  
   *Node.js / TypeScript • MIT License*  
   Modern TypeScript headless framework with customizable catalog schemas, facet/attribute engines, multi-channel pricing strategies, and automated digital asset transformations.
 
-* **[Solidus](https://github.com/solidusio/solidus)** [![GitHub stars](https://img.shields.io/github/stars/solidusio/solidus?style=social&color=white)](https://github.com/solidusio/solidus/stargazers)  
+* **[Solidus](https://github.com/solidusio/solidus)** [![GitHub_Stars](https://img.shields.io/github/stars/solidusio/solidus?style=social&color=white)](https://github.com/solidusio/solidus/stargazers)  
   *Ruby on Rails • BSD-3-Clause*  
   Enterprise-oriented open-source commerce engine featuring modular price book overrides, customer-segmented pricing tiers, and extensible catalog indexing.
 
 ### 🧩 Specialized Catalogs & Extensions
 
-* **[CoreShop](https://github.com/coreshop/CoreShop)** [![GitHub stars](https://img.shields.io/github/stars/coreshop/CoreShop?style=social&color=white)](https://github.com/coreshop/CoreShop/stargazers)  
+* **[CoreShop](https://github.com/coreshop/CoreShop)** [![GitHub_Stars](https://img.shields.io/github/stars/coreshop/CoreShop?style=social&color=white)](https://github.com/coreshop/CoreShop/stargazers)  
   *PHP (Symfony) • GPLv3*  
   E-commerce and catalog extension built natively on top of Pimcore. Adds native price lists, tiered quantity pricing, and quote-order pipelines directly to Pimcore's data model.
 
@@ -166,7 +166,7 @@ Contributions from data architects, ecommerce engineers, and PIM practitioners a
 2. 🌿 **Create a branch** (`git checkout -b feature/add-new-tool`).
 3. 📝 **Add your entry** under the appropriate SaaS or Open-Source category:
    - Ensure SaaS additions include verified starting tier pricing, free tier/trial limits, and approximate revenue/valuation.
-   - Ensure open-source additions include valid GitHub links, short tech stack overview, and shields.io star badge (`style=social&color=white`).
+   - Ensure open-source additions include valid GitHub links, short tech stack overview, and shields.io Stars_Badge (`style=social&color=white`).
 4. 🧪 **Test formatting** to guarantee tables and markdown links render cleanly.
 5. 🚀 **Submit a Pull Request** with a descriptive summary of changes.
 
