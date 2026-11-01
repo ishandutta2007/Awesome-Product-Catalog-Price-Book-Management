@@ -1,48 +1,53 @@
-# Awesome Product Catalog & Price Book Management
+# 🏷️ Awesome Product Catalog & Price Book Management
 
 <p align="center">
   <img src="./assets/banner.svg" alt="Awesome Product Catalog and Price Book Management Banner" width="100%" />
 </p>
 
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Product-Catalog-Price-Book-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Product-Catalog-Price-Book-Management?style=social&color=white" alt="GitHub Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Product-Catalog-Price-Book-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Product-Catalog-Price-Book-Management?style=social&color=white" alt="GitHub Forks" /></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome List" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome List" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Product-Catalog-Price-Book-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Product-Catalog-Price-Book-Management?color=blue" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
-> **A definitive, SEO-optimized curated directory of enterprise SaaS solutions and open-source software for Product Information Management (PIM), Product Experience Management (PXM), Price Books, Tiered Pricing Engines, and Headless Product Catalog Management.**
+> 💡 **A definitive, SEO-optimized curated directory of enterprise SaaS solutions and open-source software for Product Information Management (PIM), Product Experience Management (PXM), Price Books, Tiered Pricing Engines, and Headless Product Catalog Management.**
 
 ---
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Overview & Architecture](#overview--architecture)
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-  - [Full-Scale PIM Platforms](#full-scale-pim-platforms)
-  - [Headless Commerce & Multi-Price Engines](#headless-commerce--multi-price-engines)
-  - [Specialized Catalogs & Extensions](#specialized-catalogs--extensions)
-- [Feature Comparison Matrix](#feature-comparison-matrix)
-- [How to Contribute](#how-to-contribute)
-- [License & Disclaimer](#license--disclaimer)
+- [🔍 Overview & Architecture](#-overview--architecture)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [📦 Full-Scale PIM Platforms](#-full-scale-pim-platforms)
+  - [⚡ Headless Commerce & Multi-Price Engines](#-headless-commerce--multi-price-engines)
+  - [🧩 Specialized Catalogs & Extensions](#-specialized-catalogs--extensions)
+- [⚖️ Feature Comparison Matrix](#️-feature-comparison-matrix)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
+- [📜 License & Disclaimer](#-license--disclaimer)
 
 ---
 
-## Overview & Architecture
+## 🔍 Overview & Architecture
 
 Modern omnichannel commerce requires synchronizing hundreds of thousands—sometimes millions—of stock-keeping units (SKUs) across varied digital sales channels, marketplaces (Amazon, eBay, Walmart), localized storefronts, and direct B2B sales pipelines. 
 
 **Product Catalog & Price Book Management** systems centralize:
-- **Core Product Attributes:** SKU taxonomies, technical specifications, variants (color/size/material), and localized copy.
-- **Digital Asset Management (DAM):** High-resolution photography, 3D assets, specification PDFs, and compliance certifications.
-- **Price Books & Pricing Logic:** Country-specific currencies, customer group tiers, volume discount schedules, promotional pricelists, and contractual CPQ (Configure, Price, Quote) agreements.
-- **Syndication & Distribution:** Automated REST/GraphQL feeds mapped to merchant centers, POS terminals, and ERP backbones (SAP, NetSuite).
+- 🏷️ **Core Product Attributes:** SKU taxonomies, technical specifications, variants (color/size/material), and localized copy.
+- 🖼️ **Digital Asset Management (DAM):** High-resolution photography, 3D assets, specification PDFs, and compliance certifications.
+- 💰 **Price Books & Pricing Logic:** Country-specific currencies, customer group tiers, volume discount schedules, promotional pricelists, and contractual CPQ (Configure, Price, Quote) agreements.
+- 🚀 **Syndication & Distribution:** Automated REST/GraphQL feeds mapped to merchant centers, POS terminals, and ERP backbones (SAP, NetSuite).
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global Product Information Management (PIM) and product catalog market is currently valued at approximately **$15 Billion to $18 Billion** and is projected to surpass **$37 Billion to $45 Billion by the 2030s**, compounding at a rapid **CAGR of ~14% to 16%**. 
 
@@ -50,7 +55,7 @@ The sector is **moderately fragmented**: mega-cap enterprise incumbents (Salesfo
 
 ---
 
-## SaaS & Hosted Platforms
+## ☁️ SaaS & Hosted Platforms
 
 Below is a detailed breakdown of leading SaaS platforms offering dedicated product catalog, PIM, or price book capabilities. The table is sorted in descending order by **Company Size (Revenue / Market Capitalization)**.
 
@@ -69,13 +74,13 @@ Below is a detailed breakdown of leading SaaS platforms offering dedicated produ
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 Open-source product catalog and price book software empowers teams to avoid vendor lock-in, customize complex relational schemas, and deploy on-premise or within self-hosted clouds (AWS, GCP, Azure, Bare-Metal Kubernetes).
 
 The projects below are organized and sorted in descending order by **GitHub Star Count**.
 
-### Full-Scale PIM Platforms
+### 📦 Full-Scale PIM Platforms
 
 * **[Odoo](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
   *Python / JavaScript • LGPLv3*  
@@ -97,7 +102,7 @@ The projects below are organized and sorted in descending order by **GitHub Star
   *PHP / Backbone.js • GPLv3*  
   Flexible open-source PIM software built on the AtroCore framework. Empowers non-technical administrators to configure customized data models, entity relationships, classifications, and associations directly from the UI without backend code deployment.
 
-### Headless Commerce & Multi-Price Engines
+### ⚡ Headless Commerce & Multi-Price Engines
 
 Many engineering teams leverage modern headless commerce backbones as their primary catalog and multi-currency price book service:
 
@@ -125,7 +130,7 @@ Many engineering teams leverage modern headless commerce backbones as their prim
   *Ruby on Rails • BSD-3-Clause*  
   Enterprise-oriented open-source commerce engine featuring modular price book overrides, customer-segmented pricing tiers, and extensible catalog indexing.
 
-### Specialized Catalogs & Extensions
+### 🧩 Specialized Catalogs & Extensions
 
 * **[CoreShop](https://github.com/coreshop/CoreShop)** [![GitHub stars](https://img.shields.io/github/stars/coreshop/CoreShop?style=social&color=white)](https://github.com/coreshop/CoreShop/stargazers)  
   *PHP (Symfony) • GPLv3*  
@@ -141,7 +146,7 @@ Many engineering teams leverage modern headless commerce backbones as their prim
 
 ---
 
-## Feature Comparison Matrix
+## ⚖️ Feature Comparison Matrix
 
 | Capability | PIM Solutions (UnoPim, Akeneo, Plytix) | ERP / Catalog Suites (Odoo, Katana) | Headless Engines (Medusa, Saleor) | CRM / CPQ Engines (Salesforce, DealHub) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -153,21 +158,40 @@ Many engineering teams leverage modern headless commerce backbones as their prim
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
 Contributions from data architects, ecommerce engineers, and PIM practitioners are warmly welcomed!
 
-1. **Fork** the repository.
-2. **Create a branch** (`git checkout -b feature/add-new-tool`).
-3. **Add your entry** under the appropriate SaaS or Open-Source category:
+1. 🍴 **Fork** the repository.
+2. 🌿 **Create a branch** (`git checkout -b feature/add-new-tool`).
+3. 📝 **Add your entry** under the appropriate SaaS or Open-Source category:
    - Ensure SaaS additions include verified starting tier pricing, free tier/trial limits, and approximate revenue/valuation.
    - Ensure open-source additions include valid GitHub links, short tech stack overview, and shields.io star badge (`style=social&color=white`).
-4. **Test formatting** to guarantee tables and markdown links render cleanly.
-5. **Submit a Pull Request** with a descriptive summary of changes.
+4. 🧪 **Test formatting** to guarantee tables and markdown links render cleanly.
+5. 🚀 **Submit a Pull Request** with a descriptive summary of changes.
 
 ---
 
-## License & Disclaimer
+## 💖 Support & Sponsorship
+
+If you find this curated directory helpful for navigating product catalog and pricing infrastructure, please consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and contribute** by adding new tools, updates, and case studies.
+- 📢 **Share with colleagues** across engineering, operations, and product teams.
+- ☕ **Buy a coffee & sponsor**: Support ongoing maintenance and curation on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for being part of the open-source and commerce tooling community!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Product-Catalog-Price-Book-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Product-Catalog-Price-Book-Management&type=date&legend=top-left)
+
+---
+
+## 📜 License & Disclaimer
 
 - Distributed under the [MIT License](file:///C:/Users/hp/Documents/Projects/Awesome-Product-Catalog-Price-Book-Management/LICENSE).
 - *Disclaimer:* All product names, logos, and brands are property of their respective owners. Company valuations and software pricing reflect published public documentation, procurement benchmarks, and investor disclosures as of late 2026. Self-hosted deployments require ongoing adherence to individual open-source licenses and institutional data protection regulations.
